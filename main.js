@@ -45,5 +45,6 @@ $(document).ready(function() {
         $("#text").text("lovely image of wisest most knowledgeable most handsome egg of all");
         $("#image").attr("src", "img/mastar.png");
         break;
-    });
+    }
+  });
 });
