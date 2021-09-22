@@ -1,4 +1,5 @@
 var toggle = 0;
+
 $(document).ready(function() {
   $("#button").onClick(function() {
     toggle = (toggle + 1) % 8;
