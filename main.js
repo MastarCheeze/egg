@@ -1,7 +1,7 @@
 var toggle = 0;
 
 $(document).ready(function() {
-  $("#button").onClick(function() {
+  $("#button").click(function() {
     toggle = (toggle + 1) % 8;
     
     switch(toggle) {
